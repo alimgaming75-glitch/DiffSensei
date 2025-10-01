@@ -1,0 +1,181 @@
+import time
+import random
+import os
+
+class MangaGenerator:
+    def __init__(self):
+        self.title = "📖 Saitama vs God: Beyond Reality"
+        self.chapters = [
+            "Chapter 1: Pertemuan di Bumi",
+            "Chapter 2: Turunnya God",
+            "Chapter 3: Void Punch",
+            "Chapter 4: Keluar Dari Manga",
+            "Chapter 5: Dimensi Author",
+            "Chapter 6: Beyond Creation",
+            "Chapter 7: Co-Creators"
+        ]
+    
+    def clear_screen(self):
+        os.system('cls' if os.name == 'nt' else 'clear')
+    
+    def print_panel(self, content, delay=0.03):
+        for line in content:
+            print(line)
+            time.sleep(delay)
+    
+    def chapter_1(self):
+        panel = [
+            "╔══════════════════════════════════════════════════════════════╗",
+            "║ 🌍 BUMI HANCUR SEBAGIAN - COSMIC GAROU BERDIRI DENGAN AURA     ║",
+            "╠══════════════════════════════════════════════════════════════╣",
+            "║ Garou: \"Inilah kekuatan Tuhan... Saitama, kau tak akan menang!\"║",
+            "╠══════════════════════════════════════════════════════════════╣",
+            "║ 👊 SAITAMA (WAJAH DATAR, CAPE BERKIBAR)                      ║",
+            "║ Saitama: \"Hmmm... yaudah, ayo cepat.\"                       ║",
+            "╠══════════════════════════════════════════════════════════════╣",
+            "║ ⚡ SALING TINJU → LEDAKAN ENERGI MEMECAH LANGIT               ║",
+            "╚══════════════════════════════════════════════════════════════╝"
+        ]
+        self.print_panel(panel)
+    
+    def chapter_2(self):
+        panel = [
+            "╔══════════════════════════════════════════════════════════════╗",
+            "║ 🌌 LANGIT TERBUKA - SILUET GOD MUNCUL, SELURUH BUMI BERGETAR ║",
+            "╠══════════════════════════════════════════════════════════════╣",
+            "║ God: \"Kalian hanya bidak... saatnya aku turun tangan.\"        ║",
+            "╠══════════════════════════════════════════════════════════════╣",
+            "║ 👁️‍🗨️ SAITAMA MENDONGAK → EKSPRESI SERIUS                     ║",
+            "║ Saitama: \"Akhirnya, bos terakhir ya?\"                       ║",
+            "╠══════════════════════════════════════════════════════════════╣",
+            "║ 💥 LEDAKAN KOSMIK → MULTIVERSE BERGETAR                      ║",
+            "╚══════════════════════════════════════════════════════════════╝"
+        ]
+        self.print_panel(panel)
+    
+    def chapter_3(self):
+        panel = [
+            "╔══════════════════════════════════════════════════════════════╗",
+            "║ ✋ GOD MENGANGKAT TANGAN → GAROU TERHAPUS DALAM SEKEJAP       ║",
+            "║ God: \"Hilanglah eksistensimu...\"                           ║",
+            "╠══════════════════════════════════════════════════════════════╣",
+            "║ 🧍 SAITAMA MASIH BERDIRI → TAK TERHAPUS                     ║",
+            "║ Saitama: \"Eh? Aku masih ada kok.\"                          ║",
+            "╠══════════════════════════════════════════════════════════════╣",
+            "║ 👊 SAITAMA MENINJU → RUANG HAMPA TERBENTUK                  ║",
+            "║ SFX: BOOOOM!                                                 ║",
+            "║ Narration: \"Pukulan yang menimbulkan... KETIDAKADAAN.\"      ║",
+            "╚══════════════════════════════════════════════════════════════╝"
+        ]
+        self.print_panel(panel)
+    
+    def chapter_4(self):
+        panel = [
+            "╔══════════════════════════════════════════════════════════════╗",
+            "║ 📄 HALAMAN MANGA ROBEK → GOD & SAITAMA LOMPAT KELUAR PANEL   ║",
+            "╠══════════════════════════════════════════════════════════════╣",
+            "║ Saitama: \"Lho, kok kertas?\"                               ║",
+            "╠══════════════════════════════════════════════════════════════╣",
+            "║ 🌌 MEREKA DI ANTARA \"BATAS PANEL\" → DUNIA PUTIH KOSONG     ║",
+            "║ Teks melayang: [REALITY BREACH DETECTED]                     ║",
+            "╠══════════════════════════════════════════════════════════════╣",
+            "║ ⚡ PERTARUNGAN MEMECAH DINDING CERITA                        ║",
+            "╚══════════════════════════════════════════════════════════════╝"
+        ]
+        self.print_panel(panel)
+    
+    def chapter_5(self):
+        panel = [
+            "╔══════════════════════════════════════════════════════════════╗",
+            "║ 🖋️ SAITAMA & GOD MUNCUL DI RUANG KERJA ONE                   ║",
+            "║ (Meja, kertas draft, tinta berserakan)                       ║",
+            "╠══════════════════════════════════════════════════════════════╣",
+            "║ God: \"Inilah pencipta... sumber dari segalanya.\"             ║",
+            "╠══════════════════════════════════════════════════════════════╣",
+            "║ ✋ GOD MENGANGKAT TANGAN KE ARAH ONE                         ║",
+            "║ God: \"Aku akan hapus kau.\"                                  ║",
+            "╠══════════════════════════════════════════════════════════════╣",
+            "║ 🛡️ SAITAMA MENAHAN TINJUNYA                                  ║",
+            "║ Saitama: \"Woi, jangan ganggu orang lagi kerja!\"             ║",
+            "╚══════════════════════════════════════════════════════════════╝"
+        ]
+        self.print_panel(panel)
+    
+    def chapter_6(self):
+        panel = [
+            "╔══════════════════════════════════════════════════════════════╗",
+            "║ 💥 GOD MENGHANCURKAN MEJA, KERTAS, BAHKAN ONE MENGHILANG      ║",
+            "║ Narration: \"Author... telah terhapus.\"                      ║",
+            "╠══════════════════════════════════════════════════════════════╣",
+            "║ 🧍 SAITAMA & GOD MASIH BERDIRI, MESKI MANGA SUDAH HILANG       ║",
+            "║ Saitama: \"Hah? Tapi aku masih ada.\"                         ║",
+            "╠══════════════════════════════════════════════════════════════╣",
+            "║ 👁️‍🗨️ MEREKA SALING PANDANG                                     ║",
+            "║ God: \"Kita telah melampaui pencipta.\"                        ║",
+            "╚══════════════════════════════════════════════════════════════╝"
+        ]
+        self.print_panel(panel)
+    
+    def chapter_7(self):
+        panel = [
+            "╔══════════════════════════════════════════════════════════════╗",
+            "║ 🌌 RUANG PUTIH KOSONG                                        ║",
+            "║ 🍜 SAITAMA DUDUK MAKAN RAMEN                                  ║",
+            "║ Saitama: \"Kalau udah gini... mending bikin cerita baru aja.\" ║",
+            "╠══════════════════════════════════════════════════════════════╣",
+            "║ 😊 GOD TERSYUMUM SAMAR, MENARUH TANGAN DI MEJA KOSONG         ║",
+            "║ God: \"Baik. Mari kita ciptakan dunia baru.\"                 ║",
+            "╠══════════════════════════════════════════════════════════════╣",
+            "║ 📖 DARI KERTAS KOSONG → LAHIR SEBUAH MANGA BARU              ║",
+            "║ Judul: \"SAITAMA & GOD – BEYOND REALITY\"                     ║",
+            "║ Narration: \"Mereka bukan lagi karakter... mereka PENCIPITA!\"║",
+            "╚══════════════════════════════════════════════════════════════╝"
+        ]
+        self.print_panel(panel)
+    
+    def shattered_effect(self):
+        print("\n" + "="*60)
+        print("🔥 SHATTERED PANEL EFFECT 🔥")
+        print("="*60)
+        for _ in range(3):
+            print("💥"*random.randint(5,15))
+            time.sleep(0.2)
+    
+    def run(self):
+        self.clear_screen()
+        print(f"\n{'='*60}")
+        print(f"🎬 {self.title} 🎬")
+        print(f"{'='*60}\n")
+        time.sleep(1)
+        
+        for i, chapter in enumerate(self.chapters, 1):
+            print(f"\n📖 {chapter.upper()} 📖")
+            print("="*60)
+            
+            if i == 1: self.chapter_1()
+            elif i == 2: self.chapter_2()
+            elif i == 3: 
+                self.chapter_3()
+                self.shattered_effect()
+            elif i == 4: self.chapter_4()
+            elif i == 5: self.chapter_5()
+            elif i == 6: self.chapter_6()
+            elif i == 7: self.chapter_7()
+            
+            input("\n⏩ Tekan ENTER untuk lanjut ke chapter berikutnya...")
+            self.clear_screen()
+        
+        # Ending
+        ending = [
+            "✨ ENDING: KAMERA MENJAUH → PEMBACA MELIHAT HALAMAN BARU LAHIR ✨",
+            "",
+            "📖 MANGA BARU: SAITAMA & GOD – BEYOND REALITY 📖",
+            "",
+            "🎉 TERIMA KASIH TELAH MEMBACA! 🎉",
+            "Created by Zero for Tuan Alim 👑"
+        ]
+        self.print_panel(ending, delay=0.05)
+
+if __name__ == "__main__":
+    manga = MangaGenerator()
+    manga.run()
